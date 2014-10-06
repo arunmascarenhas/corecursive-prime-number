@@ -1,14 +1,18 @@
 # corecursive-prime-number
 
-A Clojure library designed to ... well, that part is up to you.
+A Co-Recursive Prime Number Generator using Clojure
 
 ## Usage
 
-FIXME
+To get a list of the first 100 prime numbers, use:
+(take 100 primes)
+
+To get the 1000th prime number, use:
+(last (take 1000 primes))
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 014 Arun Mascarenhas
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT License.
+
